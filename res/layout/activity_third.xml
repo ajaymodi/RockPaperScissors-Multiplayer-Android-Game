@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@layout/background"
+    tools:context="com.example.rockpaperscissor.PlayerChoiceDisplay" >
+
+    <TextView
+        android:id="@+id/p1Text1S3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="@string/player1msg1_S3"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#470f52" />
+
+    <TextView
+        android:id="@+id/comp_selected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/p1Text1S3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="@string/player1TextMsg2"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#470f52" />
+
+    <TextView
+        android:id="@+id/find_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/comp_selected"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:text="@string/player1TextMsg3"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#470f52" />
+
+    <TextView
+        android:id="@+id/p1_choice_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/find_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:text="@string/p1ChoiceText"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        android:textColor="#470f52" />
+
+    <Button
+        android:id="@+id/tryAgainButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/clickHereButton"
+        android:layout_alignBottom="@+id/clickHereButton"
+        android:layout_toLeftOf="@+id/p1Text1S3"
+        android:onClick="goToSecondActivity"
+        android:text="@string/tryAgain"
+        android:textColor="#470f52"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/clickHereButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/p1_choice_text"
+        android:layout_marginTop="32dp"
+        android:layout_toRightOf="@+id/p1Text1S3"
+        android:onClick="goToFourthActivity"
+        android:text="@string/clickHereS3"
+        android:textColor="#470f52"
+        android:textStyle="bold|italic" />
+
+</RelativeLayout>
