@@ -1,8 +1,6 @@
-Multiplayer Rock-Paper-Scissors Game
-====================================
+Rock Paper Scissors Android Game (Multiplayer Version Using Bluetooth)
+========================================================================
 
-The classic rock paper &amp; scissors game with multiplayer support (not web server required)
-
-This is a group assignment for the course CSE 535: Mobile Computing.
-
-For instructions on how to play the game go to http://goo.gl/qY5w6T
+- This application does not require support of external web server. Just download the apk from given link and install in your android device.
+- For detailed instruction on how to play and to understand the development concepts, please look at: http://goo.gl/qY5w6T
+- APK can be downloaded from: http://goo.gl/fI6dI2
